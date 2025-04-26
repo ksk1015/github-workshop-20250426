@@ -71,6 +71,23 @@ https://github.com/
 - マージしてみる
 - codespacesを使って、コミットとプルリクエストしてみる
 
-## GitHubから離れて現代のウェブサイトのデータ管理や公開作業について
-
 ## GitHub Pagesを使ってウェブページを公開してみる
+
+- リポジトリを作成
+  - 公開かプライベートかは公開で
+    - GitHub 無料プランではプライベートリポジトリではGitHub Pagesが利用できないためPublicを選択します
+- README.md
+  - プロジェクトの説明や仕様について記述する、決まりではないですが基本ルールみたいなものです
+  - mdとはMarkdown
+    - HTMLでできる修飾や意味付けをHTMLタグを使わずに記述できる
+    - https://ja.wikipedia.org/wiki/Markdown
+- .gitignore
+  - Gitで管理しないファイルを指定するためのファイル
+  - 例）node_modulesや.envや.DS_Storeなど
+
+- GitHubの画面で直接変更コミットしてみる
+- GitHub Codespaces を使って、変更・コミット・pushしてみる
+- GitHub Pagesを有効化してみる
+  - Settings -> GitHub Pages
+  - Deploy from a branch
+  - main/ root
